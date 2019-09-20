@@ -29,7 +29,7 @@
 typedef int32_t (*dr16_rx_callback_t)(uint8_t *buff, uint16_t len);
 
 #define DR16_RX_BUFFER_SIZE      (50u)
-#define DR16_DATA_LEN            (18u)
+#define DR16_DATA_LEN            (25u)
 
 int32_t dr16_rx_uart_callback_register(dr16_rx_callback_t fn);
 int32_t dr16_forword_callback_register(dr16_rx_callback_t fn);
